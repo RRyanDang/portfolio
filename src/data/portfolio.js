@@ -7,7 +7,7 @@ export const profile = {
   initials: 'RD',
   role: 'Software Engineer',
   location: 'Toronto, CA',
-  email: 'ryandang7890@email.com',
+  email: 'ryandang7890@gmail.com',
   github: 'https://github.com/RRyanDang',
   githubHandle: 'github.com/RRyanDang',
   linkedin: 'https://www.linkedin.com/in/vmdang/',
