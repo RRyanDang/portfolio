@@ -9,7 +9,7 @@ A warm, personal portfolio site for software engineers. Built with Vue 3, Vite, 
 ```bash
 npm install       # install dependencies
 npm run dev       # start dev server with hot reload
-npm run build     # production build → dist/
+npm run deploy    # production build → dist/ and push to gh-pages
 npm run preview   # preview the production build locally
 ```
 
@@ -20,7 +20,7 @@ npm run preview   # preview the production build locally
 ```
 src/
 ├── data/
-│   └── portfolio.js          ← ALL your content lives here
+│   └── portfolio.js          ← ALL content lives here
 ├── composables/
 │   └── useReveal.js          ← shared scroll-reveal animation
 ├── components/
@@ -44,35 +44,8 @@ src/
 
 Everything lives in `src/data/portfolio.js` — edit that file and changes propagate everywhere automatically. No need to touch individual components for routine updates.
 
----
 
-## Wiring up the contact form
-
-The form uses a placeholder `setTimeout`. Replace it in `ContactSection.vue`:
-
-### Formspree (free, easiest)
-```js
-async function handleSubmit() {
-  sending.value = true
-  await fetch('https://formspree.io/f/YOUR_ID', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(form.value),
-  })
-  sending.value = false
-  submitted.value = true
-}
 ```
-
----
-
-## Deploying
-
-| Platform | Steps |
-|----------|-------|
-| **Vercel** | `npx vercel` in the project root |
-| **Netlify** | `npm run build` → drag `dist/` to netlify.com |
-| **GitHub Pages** | Set `base: '/repo-name/'` in `vite.config.js`, push `dist/` to `gh-pages` |
 
 ---
 
