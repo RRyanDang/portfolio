@@ -14,8 +14,8 @@ import SiteFooter        from './components/SiteFooter.vue'
   <main>
     <HeroSection />
     <SkillsSection />
-    <ProjectsSection />
     <ExperienceSection />
+    <ProjectsSection />
     <ClubsSection />
     <ContactSection />
   </main>
