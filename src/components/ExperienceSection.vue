@@ -53,7 +53,7 @@ function toggle(i) {
 </template>
 
 <style scoped>
-section { background: var(--bg2); }
+section { background: var(--bg); }
 
 .timeline {
   position: relative;

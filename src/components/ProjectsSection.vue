@@ -36,7 +36,7 @@ const { revealRef } = useReveal()
 </template>
 
 <style scoped>
-section { background: var(--bg); }
+section { background: var(--bg2); }
 
 .projects-grid {
   display: grid;
