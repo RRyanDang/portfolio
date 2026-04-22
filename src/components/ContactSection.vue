@@ -9,6 +9,17 @@ const form = ref({ name: '', email: '', subject: '', message: '' })
 const submitted = ref(false)
 const sending = ref(false)
 
+async function handleSubmit() {
+  sending.value = true
+  await fetch('https://formspree.io/f/maqapppn', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(form.value),
+  })
+  sending.value = false
+  submitted.value = true
+}
+
 function handleSubmit() {
   sending.value = true
   // Replace this timeout with your real form submission (e.g. Formspree, EmailJS)
