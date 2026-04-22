@@ -20,14 +20,7 @@ async function handleSubmit() {
   submitted.value = true
 }
 
-function handleSubmit() {
-  sending.value = true
-  // Replace this timeout with your real form submission (e.g. Formspree, EmailJS)
-  setTimeout(() => {
-    sending.value = false
-    submitted.value = true
-  }, 800)
-}
+
 </script>
 
 <template>
