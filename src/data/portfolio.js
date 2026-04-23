@@ -131,13 +131,13 @@ export const clubs = [
   {
     emoji: '🏛️',
     name: 'Seneca Engi. Stu. Society',
-    role: 'VP of Academics · 2024–Present',
+    role: 'VP of Academics · Sept 2024 – Present',
     description: 'Maintaining a comprehensive resource hub for 500+ engineering students. It’s been rewarding to help my peers succeed and foster a supportive learning community.',
   },
   {
     emoji: '💵',
     name: 'CodeXperts',
-    role: ' Treasurer · 2025–Present',
+    role: ' Treasurer · Dec 2025 – April 2026',
     description: 'Manage finances for a student-run coding club with 200+ members. It’s been rewarding to help grow this club and support other students learning to code.',
   },
 ]
