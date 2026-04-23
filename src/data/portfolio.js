@@ -5,6 +5,7 @@
 export const profile = {
   name: 'Ryan Dang',
   initials: 'RD',
+  language:['English','Vietnamese','Cantonese'],
   role: 'Software Engineer',
   location: 'Toronto, CA',
   email: 'ryandang7890@gmail.com',

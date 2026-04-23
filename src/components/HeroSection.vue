@@ -31,7 +31,10 @@ import { profile } from '../data/portfolio.js'
         <div class="avatar-img">{{ profile.initials }}</div>
         <h3>{{ profile.name }}</h3>
         <div class="role">{{ profile.role }} · {{ profile.location }}</div>
-        
+        <div class="languages">
+          🌐
+          {{ profile.language.join(', ') }}
+        </div>
         <div class="avatar-stats">
           <div v-for="stat in profile.stats" :key="stat.label" class="stat">
             <span class="stat-num">{{ stat.value }}</span>
@@ -44,6 +47,17 @@ import { profile } from '../data/portfolio.js'
 </template>
 
 <style scoped>
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  font-weight: bold;
+}
+
 #hero {
   min-height: 100vh;
   display: grid;
