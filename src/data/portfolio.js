@@ -88,7 +88,44 @@ export const projects = [
 
 export const experience = [
   {
-    date: 'Summer 2025',
+    date: 'August 2026 - Present',
+    role: 'Software Engineer',
+    company: 'The Citizen Project Organization',
+    type: 'Part-time',
+    description: 'Cooperated with a team of 1 Manager, 3 developers, 2 QA members and 1 Designer to develop deliverables per sprint.',
+    bullets:[
+      'Worked with a team of 7 members from designing phase, developing code, testing functionalities and releasing to production',
+      'Documented after each feature for future reference',
+      'Developed frontend with React+Tailwind CSS and backend with AWS Cognito + Amplify',
+    ]
+  },
+  {
+    date: 'June 2026 - Present',
+    role: 'Software Developer',
+    company: 'LandSeed',
+    type: 'Volunteer',
+    description: 'Updated Front/Back-end features, fixed test cases to over 90% coverage and adhered to strict code pulishing process.',
+    bullets:[
+      'Contributed to over 50 tickets, including new features addition and test cases updates and other production bugs',
+      'Updated infrastructure libraries and frameworks to remove 50 HIGH, 40 MEDIUM and 60 LOW severity vulnerabilities',
+      'Cooperated with senior engineers to delegate and report high sensitive bugs for the best approach',
+    ]
+  },
+  {
+    date: 'April 2026 - August 2026',
+    role: 'Technical Manager',
+    company: 'Pike Regional Child Advocacy Center',
+    type: 'Part-time (project-based)',
+    description: 'Cooperated closely with 1 Product Manager and leading a team of 3 engineers and 3 designers to deliver 6 major updates in a span of 4 months.',
+    bullets:[
+      'Worked closely with the clients and Product Manager to understand their needs',
+      'Reviewed and approaved progress, designing drafts and deliverables',
+      'Resolved all blockers through communication and provided reources so team could meet deadlines',
+      'Co-led weekly meetings with internal team and clients to provide updates and requested for new information',
+    ]
+  },
+  {
+    date: 'April 2025 - August 2025',
     role: 'ITS Technologist',
     company: 'Seneca Polytechnic',
     type: 'Co-op',
