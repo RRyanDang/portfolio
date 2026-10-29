@@ -95,7 +95,7 @@ export const experience = [
     description: 'Cooperated with a team of 1 Manager, 3 developers, 2 QA members and 1 Designer to develop deliverables per sprint.',
     bullets:[
       'Worked with a team of 7 members from designing phase, developing code, testing functionalities and releasing to production',
-      'Documented after each feature for future reference',
+      'Documented notes on Confluence and monitored progress on Asana',
       'Developed frontend with React+Tailwind CSS and backend with AWS Cognito + Amplify',
     ]
   },
